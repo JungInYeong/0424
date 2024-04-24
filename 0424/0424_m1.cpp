@@ -24,7 +24,7 @@ void Mul(int a, int b)
 
 void Divide(int a, int b)
 {
-	cout << "나눗셈 : " << (float)a / b << endl;
+	cout << "나눗셈 : " << (float)a / (float)b << endl;
 }
 
 int main()
