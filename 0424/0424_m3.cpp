@@ -7,6 +7,7 @@ int main()
 	string city[] = { "korea", "china", "japan", "brazil", "usa" };
 
 	string in;
+	string in2;
 
 	int count = 0;
 	
@@ -24,17 +25,17 @@ int main()
 
 	else
 	{
-
-
-		for (int i = 0; i < arr; i++)
+		bool input = false;
+		for ( int i = 0; i < arr; i++)
 		{
 			if (in == city[i])
 			{
 				cout << "인덱스 : " << i << " 나라이름 : " << city[i] << endl;
+				input = true;
+				break;
 			}
-			count++;
 		}
-		if (count >= arr)
+		if (!input)
 		{
 			cout << "오류입니다." << endl;
 		}

@@ -10,7 +10,7 @@ void main()
 	int inArr[5] = { 6,7,8,9,10 };
 	int arraySize = sizeof(inArr) / sizeof(inArr[0]);
 
-	for (int i = 0; i < arraySize; i++)
+	for (int i; i < arraySize; i++)
 	{
 		cout << inArr[i] << endl;
 	}
