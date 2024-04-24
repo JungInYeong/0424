@@ -8,7 +8,13 @@ void Add(int a, int b)
 
 void Sub(int a, int b)
 {
-	cout << "Â÷ : "  << a - b << endl;
+	if (a > b) {
+		cout << "Â÷ : " << a - b << endl;
+	}
+	else {
+		cout << "Â÷ : " << b - a << endl;
+	}
+	
 }
 
 void Mul(int a, int b)
