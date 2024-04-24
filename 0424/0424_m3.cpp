@@ -24,17 +24,17 @@ int main()
 
 	else
 	{
-		bool input = false;
+		bool inerror = false;
 		for ( int i = 0; i < arr; i++)
 		{
 			if (in == city[i])
 			{
 				cout << "인덱스 : " << i << " 나라이름 : " << city[i] << endl;
-				input = true;
+				inerror = true;
 				break;
 			}
 		}
-		if (!input)
+		if (!inerror)
 		{
 			cout << "오류입니다." << endl;
 		}
