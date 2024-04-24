@@ -1,36 +1,36 @@
-#include <iostream>
+ï»¿#include <iostream>
 using namespace std;
 
 void Add(int a, int b)
 {
-	cout << "ÇÕ : " << a + b << endl;
+	cout << "í•© : " << a + b << endl;
 }
 
 void Sub(int a, int b)
 {
 	if (a > b) {
-		cout << "Â÷ : " << a - b << endl;
+		cout << "ì°¨ : " << a - b << endl;
 	}
 	else {
-		cout << "Â÷ : " << b - a << endl;
+		cout << "ì°¨ : " << b - a << endl;
 	}
 	
 }
 
 void Mul(int a, int b)
 {
-	cout << "°ö¼À : " << a * b << endl;
+	cout << "ê³±ì…ˆ : " << a * b << endl;
 }
 
 void Divide(int a, int b)
 {
-	cout << "³ª´°¼À : " << (float)a / b << endl;
+	cout << "ë‚˜ëˆ—ì…ˆ : " << (float)a / b << endl;
 }
 
 int main()
 {
 	int num1, num2;
-	cout << "¼ýÀÚ¸¦ µÎ °¡Áö ÀÔ·ÂÇØÁÖ¼¼¿ä : ";
+	cout << "ìˆ«ìžë¥¼ ë‘ ê°€ì§€ ìž…ë ¥í•´ì£¼ì„¸ìš” : ";
 	cin >> num1;
 	cin >> num2;
 
