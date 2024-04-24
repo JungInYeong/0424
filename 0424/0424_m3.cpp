@@ -7,7 +7,6 @@ int main()
 	string city[] = { "korea", "china", "japan", "brazil", "usa" };
 
 	string in;
-	string in2;
 
 	int count = 0;
 	
