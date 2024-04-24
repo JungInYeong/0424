@@ -1,34 +1,34 @@
 #include <iostream>
 using namespace std;
 
-int add(int n1, int n2)
+int add(int a, int b)
 {
-	return n1 + n2;
+	return a + b;
 }
 
-int sub(int n1, int n2)
+int sub(int a, int b)
 {
-	if (n1 > n2)
+	if (a > b)
 	{
-		return n1 - n2;
+		return a - b;
 	}
 
-	else if (n2 > n1)
+	else if (b > a)
 	{
-		return n2 - n1;
+		return b - a;
 	}
 
 }
 
-int mul(int n1, int n2)
+int mul(int a, int b)
 {
-	return n1 * n2;
+	return a * b;
 }
 
-float divide(int n1, int n2)
+float divide(int a, int b)
 {
-	return (float)n1 / (float)n2;
-	// 강제 형변환 처음에 리턴을 int로 줘서 결과값이 이상했음
+	return (float)a / (float)b;
+
 }
 
 
