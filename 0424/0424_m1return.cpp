@@ -37,9 +37,9 @@ int main()
 	int num1, num2;
 	cin >> num1 >> num2;
 
-	cout << "add " << add(num1, num2) << "\n";
-	cout << "sub " << sub(num1, num2) << "\n";
-	cout << "mul " << mul(num1, num2) << "\n";
-	cout << "divide " << divide(num1, num2) << "\n";
+	cout << "ÇÕ : " << add(num1, num2) << endl;
+	cout << "Ä¡ : " << sub(num1, num2) << endl;
+	cout << "°ö :  " << mul(num1, num2) << endl;
+	cout << "³ª´°¼À :  " << divide(num1, num2) << endl;
 
 }
