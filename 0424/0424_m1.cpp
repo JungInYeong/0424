@@ -30,7 +30,7 @@ void Divide(int a, int b)
 int main()
 {
 	int num1, num2;
-	cout << "숫자를 입력해주세요 : ";
+	cout << "숫자를 두 가지 입력해주세요 : ";
 	cin >> num1;
 	cin >> num2;
 
