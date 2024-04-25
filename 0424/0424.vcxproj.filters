@@ -33,5 +33,11 @@
     <ClCompile Include="0424_m3.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="0424_m4.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Downloads\240424_CountyNamePrac.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
